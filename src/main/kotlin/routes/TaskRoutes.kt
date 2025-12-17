@@ -348,7 +348,7 @@ private suspend fun ApplicationCall.handleUpdateTask(store: TaskStore) {
             respondText(html, ContentType.Text.Html)
         } else {
             // No-JS: redirect back (would need error handling)
-            respondRedirect("/tasks")
+            
         }
         return
     }

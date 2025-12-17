@@ -1,0 +1,12 @@
+{% extends "_layout/base.peb" %}
+{% block title %}Edit Task{% endblock %}
+
+{% block content %}
+<article>
+  <h1>Edit Task</h1>
+
+  <ul class="task-list">
+    {% include "tasks/_edit.peb" %}
+  </ul>
+</article>
+{% endblock %}
